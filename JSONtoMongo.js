@@ -32,17 +32,17 @@ require('fs').readFile('./listings.json', 'utf8', function (err, data) {
       var attitude = 90;
       try{
         attitude = obj.entries[index].coordinates.latitude;
-        //console.log(attitude);
+
       } catch(err) {
-        //console.log(attitude + " Ho Ho Ho Bitches");
+
       }
 
       var lawngitude = 0;
       try{
         lawngitude = obj.entries[index].coordinates.longitude;
-        //console.log(lawngitude);
+
       } catch(err) {
-        //console.log(lawngitude + " Ho Ho Hold Ma Dick");
+
       }
 
       var subress;
